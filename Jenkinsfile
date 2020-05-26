@@ -29,7 +29,7 @@ pipeline {
                     ], 
                     credentialsId: 'nexus3', 
                     groupId: 'in.javahome', 
-                    nexusUrl: '172.31.15.204:8081', 
+                    nexusUrl: 'nexus.enigmacamp.ngrok.io', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: nexusRepoName, 
