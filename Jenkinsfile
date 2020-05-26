@@ -29,7 +29,7 @@ pipeline {
                     ], 
                     credentialsId: 'nexus3', 
                     groupId: 'in.javahome', 
-                    nexusUrl: 'nexus.enigmacamp.ngrok.io', 
+                    nexusUrl: 'http://10.10.11.6/repository/simpleapp-release/', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: nexusRepoName, 
